@@ -7,7 +7,7 @@ Simple snake game
 - Install GNU GCC compiler
 - Install CMake
 - Install git
-- git clone --recursive https://github.com/F5DXWsqPme/Simple-snake
+- git clone --recursive https://github.com/F5DXWsqPme/Snake-public
 - Put next to project ext directory:
     - ext/
         - include/
