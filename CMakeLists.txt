@@ -33,10 +33,6 @@ add_executable(${CURRENT_PROJECT_NAME}
 target_include_directories(${CURRENT_PROJECT_NAME} PRIVATE src)
 target_include_directories(${CURRENT_PROJECT_NAME} PRIVATE ext/include)
 
-message(${CMAKE_BUILD_TYPE})
-
-message(${CMAKE_BUILD_TYPE})
-
 IF (CMAKE_BUILD_TYPE MATCHES Debug)
   set(LIB_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/ext/lib/debug)
 ELSE (CMAKE_BUILD_TYPE MATCHES Debug)
