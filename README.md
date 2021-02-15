@@ -16,7 +16,7 @@ Simple snake game
         - lib/ 
             - debug/GLEW and GLFW debug libs
             - release/GLEW and GLFW release libs
-- cd Simple-snake
+- cd Snake-public
 - mkdir build
 - cd build
 - cmake ..
